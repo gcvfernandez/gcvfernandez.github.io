@@ -8,7 +8,7 @@ categories: [automation, n8n, personal-finance]
 tags: [n8n, automation, gmail, google-sheets, pdf]
 ---
 
-![N8N Workflow](../assets/lib/n8n-statement-workflow.png)
+![N8N Workflow](../assets/n8n-statement-workflow.png)
 
 ## Building an Automatic Monthly Bills and Credit Card Statement Tracker with n8n 
 
@@ -62,7 +62,7 @@ Common examples include:
 
 This avoids unnecessary downloads while preserving traceability to the original source.
 
-![Email Statements](../assets/lib/email-based-utilities.png)
+![Email Statements](../assets/email-based-utilities.png)
 
 
 ---
@@ -85,7 +85,7 @@ Credit card statements are typically delivered as PDF attachments and often incl
 * The final PDF is uploaded to Google Drive
 * Both the Drive file link and Gmail email link are stored
 
-![Credit Card Statements](../assets/lib/credit-card-statements.png)
+![Credit Card Statements](../assets/credit-card-statements.png)
 
 
 ---
@@ -118,7 +118,7 @@ Each workflow execution targets a specific month.
 This keeps monthly records clean and easy to review.
 
 
-![Google Sheet Tracker](../assets/lib/google-sheets-tracker.png)
+![Google Sheet Tracker](../assets/google-sheets-tracker.png)
 
 ---
 
@@ -144,11 +144,11 @@ Instead of storing plain references, the workflow generates clickable Gmail link
 
 Selecting a link opens Gmail with the relevant email already filtered. This removes the need to manually search through inbox history.
 
-![Gmail link](../assets/lib/links-gmail.png)
+![Gmail link](../assets/links-gmail.png)
 
  While selecting the drive link will automatically open the decrptyed attachment e.g.(Credit Card Statement) in google drive preview mode.
 
-![Gdrive link](../assets/lib/links-drive.png)
+![Gdrive link](../assets/links-drive.png)
 
 ---
 
@@ -171,4 +171,4 @@ The web app is designed for quick, day to day interaction. It provides:
 
 This removes the need to scroll, filter, or edit rows manually on my phone.
 
-![Google Sheet Tracker](../assets/lib/appscript-web-app.png){: w="250" h="150" }
+![Google Sheet Tracker](../assets/appscript-web-app.png){: w="250" h="150" }
