@@ -3,7 +3,7 @@
 layout: post
 title: "Building an Automatic Monthly Statement Tracker with n8n"
 description: "How I automated my monthly bill and credit card statement tracking using localhost n8n, Gmail, Google Drive, and Google Sheets."
-date: 2026-01-04
+date: 2026-01-03
 categories: [automation, n8n, personal-finance]
 tags: [n8n, automation, gmail, google-sheets, pdf]
 ---
